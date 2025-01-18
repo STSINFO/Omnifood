@@ -275,3 +275,26 @@ body {
 .step-image {
   width: 35%;
 }
+
+.featured-in-section {
+  margin: 4.8rem 0 3.2rem 0;
+}
+
+.featured-in-heading {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 3.2rem;
+  text-align: center;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
