@@ -229,6 +229,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
 .grid-center-h {
   align-items: center;
 }
@@ -574,4 +578,31 @@ strong {
   top: 37px;
   right: -81px;
   transform: rotate(45deg);
+}
+
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.feature-icon {
+  font-size: 3.2rem;
+  color: #e76e22;
+  background-color: #fdf2e9;
+  padding: 1.6rem;
+  border-radius: 50%;
+  margin-bottom: 3.2rem;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+  color: #333;
+  letter-spacing: -0.75px;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
